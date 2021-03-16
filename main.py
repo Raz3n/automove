@@ -23,4 +23,10 @@ for link in all_link_elements:
     else:
         all_links.append(href)
 
-print(all_links)
+all_address_elements = soup.select(".propertyCard-details address")
+
+all_addresses = [address.get_text().replace("\n", "") for address in all_address_elements]
+
+
+
+print(all_addresses)
