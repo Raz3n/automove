@@ -38,7 +38,7 @@ For tweaking, you could change the response by going to the rightmove website an
 
 As it is currently, the response is for Edinburgh with properties added within the last 3 days between the price points of £200,000 and £280,000 with minimum 2 bedrooms. Rightmove only displays up 25 properties per page and this program is only looking at the one page so specificity can ensure you don't go over the 25 and miss out.  
 
-This program is by no means a better than using the website itself for searching, from a UX standpoint it's rather dull. This to me was more of a proof of concept that can be built upon.
+This program is by no means better than using the website itself for searching for a property (in my opinion at least, it's not), from a UX standpoint it's rather dull. This to me was more of a proof of concept that can be built upon.
 
 
 
