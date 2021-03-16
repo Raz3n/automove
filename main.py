@@ -28,5 +28,11 @@ all_address_elements = soup.select(".propertyCard-details address")
 all_addresses = [address.get_text().replace("\n", "") for address in all_address_elements]
 
 
+all_price_elements = soup.select(".propertyCard-priceValue")
+all_prices = [price.get_text().strip() for price in all_price_elements if "£" in price.text]
 
-print(all_addresses)
+all_price_qualifier_elements = soup.select(".propertyCard-priceQualifier")
+all_qualifiers = [qualifier.get_text().strip() for qualifier in all_price_qualifier_elements]
+
+all_prices_with_qualifiers = [' '.join(combination) for combination in zip(all_qualifiers, all_prices)]
+print(all_prices_with_qualifiers)
