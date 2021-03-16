@@ -8,7 +8,7 @@ header = {
     "Accept-Language": "en-GB,en;q=0.9,en-US;q=0.8,fr;q=0.7,es;q=0.6"
 }
 
-response = requests.get("https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E475&minBedrooms=2&maxPrice=300000&sortType=1&propertyTypes=&maxDaysSinceAdded=14&includeSSTC=false&mustHave=&dontShow=&furnishTypes=&keywords=", headers=header)
+response = requests.get("https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E475&minBedrooms=2&maxPrice=280000&minPrice=200000&sortType=1&propertyTypes=&maxDaysSinceAdded=3&includeSSTC=false&mustHave=&dontShow=&furnishTypes=&keywords=", headers=header)
 
 data = response.text
 soup = BeautifulSoup(data, "html.parser")
