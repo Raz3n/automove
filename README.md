@@ -11,3 +11,9 @@ This also provided the opportunity to work on creating ReadMe's which is an area
     - **BeautifulSoup**
 
 * **Selenium**
+
+## Requirements
+1. Some version of **Python3** preferably. (Python 2.7 doesn't have anymore support so I don't know what could happen). 
+
+2. Selenium WebDriver. Can be obtained at [https://www.selenium.dev/downloads/]
+
