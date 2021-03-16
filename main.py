@@ -8,7 +8,7 @@ header = {
     "Accept-Language": "en-GB,en;q=0.9,en-US;q=0.8,fr;q=0.7,es;q=0.6"
 }
 
-response = requests.get("https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E475&minBedrooms=2&maxPrice=300000&sortType=1&propertyTypes=&maxDaysSinceAdded=14&includeSSTC=false&mustHave=&dontShow=&furnishTypes=&keywords=")
+response = requests.get("https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E475&minBedrooms=2&maxPrice=300000&sortType=1&propertyTypes=&maxDaysSinceAdded=14&includeSSTC=false&mustHave=&dontShow=&furnishTypes=&keywords=", headers=header)
 
 data = response.text
 soup = BeautifulSoup(data, "html.parser")
@@ -50,7 +50,7 @@ for n in range(len(all_links)):
     driver.get("https://forms.gle/SL6bnBmE1zCgZLUs8")
 
     time.sleep(2)
-    
+
     property_answer = driver.find_element_by_xpath(
         '//*[@id="mG61Hd"]/div[2]/div/div[2]/div/div/div/div[2]/div/div[1]/div/div[1]/input')
     submit = driver.find_element_by_xpath(
