@@ -27,9 +27,15 @@ Create a google form with only one question and select the short answer option. 
 The link to your google form should be added to the driver.get("") in line 50 of main.py.
 
 The program can then be run by either:  
-- using the command *python3 main.py*  
+- using the command *python3 main.py* in the terminal   
 or  
-- using the run button in whichever editor or IDE you are using.
+- using the run button in whichever editor or IDE you are using.  
+
+I apologise for these instructions, but it is something I am working on.
+
+## Closing
+
+
 
 
 
