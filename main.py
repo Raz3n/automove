@@ -42,12 +42,12 @@ completed_property = ['. '.join(full_property) for full_property in zip(
     all_addresses, all_prices_with_qualifiers, all_links)]
 
 
-chrome_driver_path = "/Users/nelsonbrito/Documents/drivers/chromedriver"
+chrome_driver_path = "YOUR PATH HERE"
 
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 for n in range(len(all_links)):
-    driver.get("https://forms.gle/SL6bnBmE1zCgZLUs8")
+    driver.get("YOUR FORM LINK HERE")
 
     time.sleep(2)
 
