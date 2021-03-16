@@ -23,7 +23,17 @@ This also provided the opportunity to work on creating ReadMe's which is an area
 ## How to use:
 Once you have the requirements set up, you need to add the path to where your chromedriver is located on your machine, which is in line 45 of the code in main.py.
 
-Create a google form with only one question that has the short answer option. 
-[img]: "./google_form_pic.png"
+Create a google form with only one question and select the short answer option. The xpath should be fine for the input but if not you can always use the chrome devtools to find the required xpath.  
+The link to your google form should be added to the driver.get("") in line 50 of main.py.
+
+The program can then be run by either:  
+- using the command *python3 main.py*  
+or  
+- using the run button in whichever editor or IDE you are using.
+
+
+
+
+
 
 
