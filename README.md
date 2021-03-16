@@ -8,6 +8,6 @@ This also provided the opportunity to work on creating ReadMe's which is an area
 
 ## Built with:
 * **Python**
-    * **BeautifulSoup**
+    - **BeautifulSoup**
 
 * **Selenium**
