@@ -7,7 +7,7 @@ Seeing friends spend afternoons combing through properties on different websites
 This also provided the opportunity to work on creating ReadMe's which is an area I realize need some more work.
 
 ## Built with:
-    *Python
-     *BeautifulSoup
+    * Python
+     ..*BeautifulSoup
 
-    *Selenium
+    * Selenium
