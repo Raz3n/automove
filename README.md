@@ -1,7 +1,11 @@
 # automove
 A program that automates finding properties on rightmove.
 
-Built with:
+# Motivation
+Automation is an area of interest to me and I wanted to 
+
+# Built with:
     Python
-        BeautifulSoup
+     -BeautifulSoup
+
     Selenium
